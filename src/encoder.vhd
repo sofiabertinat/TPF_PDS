@@ -34,7 +34,7 @@ begin
 			aux_r(5 downto 0) <= aux_r(6 downto 1);
 			aux_r(6) <= D_i;	
 			aux_x <= aux_rX(6) xor aux_rX(5) xor aux_rX(4) xor aux_rX(3) xor aux_rX(2) xor aux_rX(1) xor aux_rX(0);
-            aux_y <= aux_rY(6) xor aux_rY(5) xor aux_rY(4) xor aux_rY(3) xor aux_rY(2) xor aux_rY(1) xor aux_rY(0);        
+            		aux_y <= aux_rY(6) xor aux_rY(5) xor aux_rY(4) xor aux_rY(3) xor aux_rY(2) xor aux_rY(1) xor aux_rY(0);        
 		end if;	
 	end process;
 	
